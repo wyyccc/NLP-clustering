@@ -5,8 +5,8 @@ def read_data(n = 1000):
     host = '172.18.128.127', 
     port = 3306,
     user = 'root',
-    password = 'tc123321',  
-    database = 'cls_data',  
+    password = '********',  
+    database = '********',  
     charset = 'utf8'
     )
     cursor = db.cursor()
