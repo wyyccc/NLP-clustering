@@ -8,7 +8,7 @@ from nltk.corpus import stopwords
 import jieba
 from sentence_transformers import SentenceTransformer, models
 
-model_path = '/mnt/disk2/wyc/ner/model/pretrain/bert-base-chinese'
+model_path = 'bert-base-chinese'
 
 batch_size = 32
 max_len = 512
